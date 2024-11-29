@@ -1,0 +1,74 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.label {
+    border: solid 2px #000000;
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+.container input {
+    width: 30rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.container .am {
+    width: 50rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.backText {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 2rem;
+    color: #000000;
+}
+
+.container .nama {
+    width: 300px;
+    height: 50px;
+}
+.container .asal {
+    width: 700px;
+    height: 50px;
+}
+
+.container .tanggal {
+    width: 345px;
+    height: 50px;
+}
+.nta {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.judul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.title {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.buttonS {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 1rem;
+}
+
+.button2 {
+    color: green;
+}

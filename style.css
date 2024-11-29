@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("Untitled design.png");
+    background-size: cover;
+    margin: 0;
+}
+
+
+
+.content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content h1 {
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content a {
+    font-size: 30px;
+    text-decoration: none;
+    flex-direction: column;
+    padding: 0.5rem;
+    color: rgb(0, 0, 0);
+    transition: all .30s ease-in-out;
+}
+
+.content a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+}
+
+.containerText {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.reportText {
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+

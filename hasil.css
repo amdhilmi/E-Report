@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.edit {
+    color: green;
+}
+
+.del {
+    color: red;
+}
+
+.title {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.link {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+}
+
+.link a {
+    font-size: 20px;
+    color: black;
+}
+
+.label {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.label td,th {
+    border: 1px solid black;
+}
