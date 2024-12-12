@@ -41,32 +41,39 @@
 
 
     <form action="  " method="get">
-   <div class="container">
-    <div class="label">
-   <div class="nta">
-        <h3 class="title">Laporan Pengaduan</h3>
-    <label>Nama</label>
-        <input type="text" name="nama" class="nama" id="nama" placeholder="Silahkan isi dengan Nama anda">
-    <label>Tanggal</label>
-        <input type="date" name="tanggal" class="tanggal" id="date" placeholder="Tambahkan tanggal laporan">
-        <div>
-    <label>Alamat</label>
-        <input type="text" name="alamat" class="asal" id="asal" placeholder="Silahkan Isi dengan Alamat anda">
-    </div>
-</div>
-    <div class="judul">
-        <input type="text" name="judul" id="jp" placeholder="Judul Pengaduan">
-    </div>
-    <div>
-        <textarea type="text" name="laporan" class="am" id="am"></textarea>
-    </div>
-        <div class="buttonS">
-            <button type="submit" name="btn" href="hasil.php" style="margin-right: 1rem;">Submit</button>
-            <a href="hasil.php" class="button2">Lihat hasil Laporan</a>
+    <div class="container">
+            <div class="label">
+                <div class="nta">
+                    <h3 class="title">Laporan Pengaduan</h3>
+                    <div class="box">
+                        <div>
+                            <label>Nama</label>
+                            <input type="text" name="nama" class="nama" id="nama" placeholder="Silahkan isi dengan Nama anda">
+                        </div>
+                        <div>
+                            <label>Tanggal</label>
+                            <input type="date" name="tanggal" class="tanggal" id="date" placeholder="Tambahkan tanggal laporan">
+                        </div>
+                    </div>
+                    <div>
+                        <label>Alamat</label>
+                        <input type="text" name="alamat" class="asal" id="asal" placeholder="Silahkan Isi dengan Alamat anda">
+                    </div>
+                    <div>
+                        <label>Judul Pengajuan</label>
+                        <input type="text" name="judul" id="jp" placeholder="Judul Pengaduan">
+                    </div>
+                    <div>
+                        <label>Isi Pengaduan</label>
+                        <textarea type="text" rows="5" name="laporan" id="am"></textarea>
+                    </div>
+                </div>
+                <div class="buttonS">
+                    <button type="submit" name="btn" href="hasil.php" style="margin-right: 1rem;">Submit</button>
+                    <a href="hasil.php" class="button2">Lihat hasil Laporan</a>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-</form>
-    
+    </form>
 </body>
 </html>
