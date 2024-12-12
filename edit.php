@@ -28,7 +28,7 @@
         if($result) {
             echo "<script>
                 alert ('Data Berhasil Di Update')
-                document.location.href='index.php'
+                document.location.href='hasil.php'
             </script>";
         } else {
           echo "<script>
@@ -46,6 +46,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="edit.css">
+    <link rel="stylesheet" href="style.css">
     <title>EDIT</title>
 </head>
 <body>
@@ -73,7 +74,7 @@
         <input type="text" name="judul" id="jp" value="<?= $data['judul']?>">
     </div>
     <div>
-        <textarea type="text" name="laporan" class="am" id="am" value="<?= $data['laporan']?>" class="am"></textarea>
+        <textarea type="text" name="laporan" class="am" id="am" value="" class="am"><?= $data['laporan']?></textarea>
     </div>
     <div class="buttonS">
    <button type="submit" name="btn">Submit</button>
